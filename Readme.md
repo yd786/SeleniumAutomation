@@ -3,9 +3,16 @@
 #### Requirement
 1. **Python.exe** this [link](https://www.python.org/)
     Remember installation Directory
+    Remember to select **ADD TO PATH**
 2. **Chromedriver** from [Latest Driver](https://chromedriver.storage.googleapis.com/81.0.4044.138/chromedriver_win32.zip)
     If Error : check installed **chrome** version by visiting this [link](chrome://version) 
     and download appropriate driver from this [link]([chrome://version](https://chromedriver.chromium.org/downloads))
+
+
+    Extract downloaded **Zip** **file** to get **Chromedriver.exe**
+    Copy **Chromedriver.exe** to Python installation Directory/Scripts folder 
+    eg:- C:\Users\Username\AppData\Local\Programs\Python\Python38-32\Scripts
+
 
 3. **Selenium**
     > pip install selenium
