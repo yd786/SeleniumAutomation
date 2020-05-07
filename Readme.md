@@ -10,7 +10,10 @@
 
 
     Extract downloaded **Zip** **file** to get **Chromedriver.exe**
+
     Copy **Chromedriver.exe** to Python installation Directory/Scripts folder 
+
+
     eg:- C:\Users\Username\AppData\Local\Programs\Python\Python38-32\Scripts
 
 

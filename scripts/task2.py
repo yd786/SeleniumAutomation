@@ -64,6 +64,8 @@ driver.find_element_by_id("encounterTab_2").click()
 time.sleep(2)
 WebDriverWait(driver, 300).until(EC.frame_to_be_available_and_switch_to_it(
     (By.CLASS_NAME, 'ze_area')))
+driver.find_element_by_css_selector(".ze_body > div").click()
+driver.find_element_by_css_selector(".ze_body > div").send_keys("")
 driver.find_element_by_css_selector(".ze_body > div").send_keys(
     data["History of Present Illness"])
 driver.switch_to.default_content()
